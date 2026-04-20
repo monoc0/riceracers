@@ -12,6 +12,7 @@ title = r"""
 |  | --' |  ||  ||  |' '-' ' \   '      |  | --' |  |\ '-'  |  |  |  \   --.    |  | --' |  |\   --.\ `--.\   --..-'  `) 
 `--'     `--'`--''--' `---'.-'  /       `--'     `--' `--`--'  `--'   `----'    `--'     `--' `----' `---' `----'`----'  
                            `---'                                                                                         
+a demo for CS2
 """
 
 menu = ['Adobo', 'Pancit', 'Sinigang', 'Lechon', 'Tinola', 'Kaldereta', 'Kare Kare', 'Arroz Caldo', 'Lumpia', 'Bulalo', 'Bicol express', 'Tapsilog', 'Lomi', 'Bistek Beef'
