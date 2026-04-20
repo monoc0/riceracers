@@ -18,5 +18,6 @@ menu = ['Adobo', 'Pancit', 'Sinigang', 'Lechon', 'Tinola', 'Kaldereta', 'Kare Ka
 ]
 dessert = ['Bibingka', 'Halo-Halo', 'Taho', 'Champarado(tm)', 'Leche flan', 'Mango float']
 
+time.sleep(5)
 print(title)
 time.sleep(5)
