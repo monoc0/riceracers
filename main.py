@@ -26,3 +26,4 @@ user = input("Enter your username")
 print(f"Welcome {user} to our program! Here you will explore the vast Filipino cuisine, and discover famous recipes and facts of Philippine cuisine!")
 print("Here is a menu of the main and side dishes, drinks and desserts")
 
+input("Input a dish, drink, or dessert to learn more about it!")
