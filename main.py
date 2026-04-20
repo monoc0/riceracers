@@ -1,3 +1,5 @@
+import time
+
 recipe = ""
 didMinigame = False
 score = 0
@@ -17,3 +19,4 @@ menu = ['Adobo', 'Pancit', 'Sinigang', 'Lechon', 'Tinola', 'Kaldereta', 'Kare Ka
 dessert = ['Bibingka', 'Halo-Halo', 'Taho', 'Champarado(tm)', 'Leche flan', 'Mango float']
 
 print(title)
+time.sleep(5)
