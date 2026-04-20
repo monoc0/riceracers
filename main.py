@@ -24,4 +24,5 @@ print(title)
 time.sleep(5)
 user = input("Enter your username")
 print(f"Welcome {user} to our program! Here you will explore the vast Filipino cuisine, and discover famous recipes and facts of Philippine cuisine!")
+print("Here is a menu of the main and side dishes, drinks and desserts")
 
