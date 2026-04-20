@@ -26,9 +26,12 @@ time.sleep(2)
 user = input("Enter your username: ").strip()
 print(f"Welcome {user} to our program! Here you will explore the vast Filipino cuisine, and discover famous recipes and facts of Philippine cuisine!")
 time.sleep(2)
+print("Here is a menu of the main and side dishes, drinks and desserts")
 for cat in menu:
     print()
     for item in cat:
         print(f" * {item}",end="")
     print()
     print("-"*67, end='')
+
+input("Input a dish, drink, or dessert to learn more about it!")
