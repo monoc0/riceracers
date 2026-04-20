@@ -15,14 +15,10 @@ title = r"""
 a demo for CS2
 """
 
-menu = [
-  ['Adobo', 'Pancit', 'Sinigang'],
-  ['Lechon', 'Tinola', 'Kaldereta'],
-  ['Kare Kare', 'Arroz Caldo', 'Lumpia'],
-  ['Bulalo', 'Bicol express', 'Tapsilog'],
-  ['Lomi', 'Bistek Beef', 'Chicken Inasal']
-]
-dessert = ['Bibingka', 'Halo-Halo', 'Taho', 'Champarado(tm)', 'Leche flan', 'Mango float']
+main = ['Adobo', 'Sinigang', 'Lechon']
+side = ['Lomi', 'Sopas', 'Munggo']
+dessert = ['Halo-Halo', 'Taho', 'Leche flan']
+drinks = ['Gulaman', 'Buko Juice', 'Magic Water']
 
 print(title)
 time.sleep(5)
