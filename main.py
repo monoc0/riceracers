@@ -16,6 +16,7 @@ a demo for CS2
 """
 
 menu = modules.menu.copy()
+menu_desc = modules.menu_desc.copy()
 
 print(title)
 time.sleep(2)
@@ -46,14 +47,15 @@ if not choiceAmount == 12:
                 for item in cat:
                     if isFound == False and addRecipe == item.lower():
                         recipes.append(item)
+                        menu[cat].pop(item)
                         isFound = True
                         break
                 if isFound: break
             if not isFound:
-                print("Item not found in the menu, please retry.")
+                print("Item not found in the menu or have been chosen, please retry.")
                 time.sleep(1)
         modules.clear()
-        print(f"Current Menu: {recipes}")
+        print(f"Current Chosen: {recipes}")
         modules.menuGet()
 
 else:
@@ -63,3 +65,28 @@ else:
 
     print(f"Current Menu: {recipes}")
     modules.menuGet()
+    for i in range(5):
+        correct, answer = modules.randQuestion()
+        if correct == answer:
+            print("Correct Answer!")
+            score += 1
+        else:
+            print("Incorrect! :(")
+        time.sleep(1)
+    print("PERFECT!" if score >= 5 else "LET'S SEE YOUR SCORE...")
+    time.sleep(1)
+    print(f"TOTAL SCORE: {score}")
+    time.sleep(5)
+    modules.clear()
+    print(f"Current Chosen: {recipes}")
+    modules.menuGet()
+    
+for recipe in recipes:
+    for cat in menu_desc:
+        if recipe in cat:
+            print(f"\n{recipe}\n{"-"*67}\n{cat[recipe]}")
+            time.sleep(5)
+
+print("""THANK YOU FOR USING THIS APP TO DISCOVER THE GREATNESS OF FILIPINO CUISINE!
+      PROJECT BY KYRAN MADDOX CALDERON #05, MARION DOMINIC CALEON #06, FRANCIO XIAN MANIQUIS #10
+      """)
