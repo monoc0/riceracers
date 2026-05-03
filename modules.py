@@ -10,15 +10,15 @@ main_desc = {'Adobo':"Adobo, a national delicacy unique for it's savory taste an
 \n Lechon is stuffed with a multitude of herbs and spices inside the body of the pig, when cutting it open you will be hit with an array of flavorous smells!'}
 side_desc = {'Lomi': 'A unique dish with Chinese origin, it is a thick egg noodles with vegtables and pork.' 'Sopas': 'Sopas is a creamy macaroni soup paired with hotdog and vegtables, and typically added with evaporated milk!', 'Munggo': 'Munggo is a soup with its main ingredient being mung beans making the soft and thick texture of it. Its often cooked with onions, onions, leaves, and shrimp! '}
 dessert_desc = {'Halo-Halo': 'Halo-Halo is the most popular cold dessert in the Philippines, it translates to mix-mix which is the first thing to do before consuming Halo-Halo. Its is composed of shaved ice, evaporated milk, sweet fruits, beans, ube, cream and much more toppings that make the dessert a worthwhile!  , 'Taho': 'A simple yet delicous snack Taho, made of only soft tofu, sweet syrup, and tapioca pearls, often sold by vendors in the morning.', 'Leche Flan': 'A sweet caramelized custard dessert, its simply made with eggs, milk, and sugar, with its signature oval shape made from a mold called llanera'}
-drinks_desc = {'Gulaman': 'a', 'Buko Juice': 'a', 'Magic Water': 'a'}
+drinks_desc = {'Gulaman': 'Gulaman is a sweet jelly drink usually with a brown sugar syrup. It has soft and chewy agar-agar bits and tapicoa pearls that make it just perfect! ', 'Buko Juice': 'Buko juice is fresh coconut water with condensedmilk, shredded coconut meat, and coconut strips that are usually added to this refreshing drink!', 'Magic Water': Magic water is one of the most popular, cheap and refreshing drinks, its magic comes from looking like plain water but has a very sweet taste. It includes water, gulaman, sugar, and banana essence!  ''}
 menu_desc = [main_desc,side_desc,dessert_desc,drinks_desc]
 
 questions = {
-    'a': 'a',
-    'b': 'b',
-    'c': 'c',
-    'd': 'd',
-    'e': 'e'
+    'Adobo': 'What is the national dish of the Philippines?',
+    'Sweet': 'What is the flavor of Halo-Halo?',
+    'Macaroni': 'What is the main ingredient in Sopas?',
+    'Spain': 'What country heavily infulenced filipino cuisine?',
+    'Lumpia': 'What do you call the filipino spring roll?'
 }
 
 def randQuestion():
